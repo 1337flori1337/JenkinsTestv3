@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                echo("test phase")				
+                echo("Testing Stage")				
             }
         }
         stage('Deploy') { 
@@ -18,5 +18,4 @@ pipeline {
                 echo("Deploying Stage") 
             }
         }
-    }
 }
