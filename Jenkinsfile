@@ -10,10 +10,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                echo("test phase")
-				sh cd /Rechner/src/test/java/example/org/tests/
-				sh javac RechnerTest.java
-				sh java RechnerTest
+                echo("test phase")				
             }
         }
         stage('Deploy') { 
