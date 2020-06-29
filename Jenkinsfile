@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-                // JUnit-Test
+                echo("test phase")
             }
         }
         stage('Deploy') { 
